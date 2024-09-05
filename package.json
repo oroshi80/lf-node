@@ -1,0 +1,21 @@
+{
+  "name": "lf_project",
+  "version": "1.0.0",
+  "description": "A simple Node.JS Project",
+  "main": "index.js",
+  "scripts": {
+    "static": "serve -p 5050 static",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:oroshi80/lf-node.git"
+  },
+  "author": "Kelvin Mereith-Smith#",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^4.28.1",
+    "fastify-cli": "^6.3.0",
+    "serve": "^14.2.3"
+  }
+}
