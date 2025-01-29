@@ -14,8 +14,10 @@
   "author": "Kelvin Mereith-Smith#",
   "license": "MIT",
   "dependencies": {
-    "fastify": "^4.28.1",
-    "fastify-cli": "^6.3.0",
+    "@fastify/cors": "^10.0.2",
+    "@fastify/websocket": "^11.0.2",
+    "fastify": "^5.2.1",
+    "fastify-cli": "^7.3.0",
     "serve": "^14.2.3"
   }
 }
